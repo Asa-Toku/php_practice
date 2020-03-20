@@ -60,5 +60,6 @@ $result = array_merge($animalz, $animals);
 print_r($result);
 echo "\n";
 echo "Now:"."1970年1月1日から".time()."秒\n";
+date_default_timezone_set("UTC");
 echo "yesterday:".date("M-d-Y", mktime(0, 0, 0, 3, 19, 2020))."\n";
 echo "today:".date("M-d-Y")."\n";
