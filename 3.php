@@ -1,7 +1,7 @@
 <?php
 $name = "Asahi";
-if ($name = "Asahi") {
-    echo "私は 徳永朝日 です。";
+if ($name == "Asahi") {
+    echo "私は $name です。";
 } else {
     echo "徳永朝日ではありません。";
 }
